@@ -17,6 +17,6 @@ jobs:
       - name: Upload to Release
         uses: svenstaro/upload-release-action@v2
         with:
-          file: "*.zip"
+          file: ./*.zip
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ github.event.release.tag_name }}
