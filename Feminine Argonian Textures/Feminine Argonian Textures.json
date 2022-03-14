@@ -54,7 +54,7 @@
           "ProbabilityWeighting": 10.0,
           "Paths": [
             {
-              "Source": "textures\\FeminineArgonian\\Chameleon Shared\\Textures\\Actors\\Character\\ArgonianFemale\\femalehead.dds",
+              "Source": "textures\\FeminineArgonian\\Chameleon Shared\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalehead.dds",
               "Destination": "HeadTexture.Diffuse"
             }
           ],
@@ -88,7 +88,7 @@
           "ProbabilityWeighting": 10.0,
           "Paths": [
             {
-              "Source": "textures\\FeminineArgonian\\Lizard Shared\\Textures\\Actors\\Character\\ArgonianFemale\\femalehead.dds",
+              "Source": "textures\\FeminineArgonian\\Lizard Shared\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalehead.dds",
               "Destination": "HeadTexture.Diffuse"
             }
           ],
@@ -125,7 +125,7 @@
       "ProbabilityWeighting": 1.0,
       "Paths": [
         {
-          "Source": "textures\\FeminineArgonian\\Shared Parts\\Textures\\Actors\\Character\\ArgonianFemale\\femalehead_msn.dds",
+          "Source": "textures\\FeminineArgonian\\Shared Parts\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalehead_msn.dds",
           "Destination": "HeadTexture.NormalOrGloss"
         }
       ],
@@ -159,7 +159,7 @@
       "ProbabilityWeighting": 1.0,
       "Paths": [
         {
-          "Source": "textures\\FeminineArgonian\\Shared Parts\\Textures\\Actors\\Character\\ArgonianFemale\\femalehead_s.dds",
+          "Source": "textures\\FeminineArgonian\\Shared Parts\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalehead_s.dds",
           "Destination": "HeadTexture.BacklightMaskOrSpecular"
         }
       ],
@@ -252,15 +252,15 @@
               "ProbabilityWeighting": 10.0,
               "Paths": [
                 {
-                  "Source": "textures\\FeminineArgonian\\Chameleon - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Chameleon - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 },
                 {
-                  "Source": "textures\\FeminineArgonian\\Chameleon - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Chameleon - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 },
                 {
-                  "Source": "textures\\FeminineArgonian\\Chameleon - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Chameleon - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 }
               ],
@@ -297,15 +297,15 @@
               "ProbabilityWeighting": 10.0,
               "Paths": [
                 {
-                  "Source": "textures\\FeminineArgonian\\Chameleon - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Chameleon - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 },
                 {
-                  "Source": "textures\\FeminineArgonian\\Chameleon - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Chameleon - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 },
                 {
-                  "Source": "textures\\FeminineArgonian\\Chameleon - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Chameleon - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 }
               ],
@@ -342,15 +342,15 @@
               "ProbabilityWeighting": 10.0,
               "Paths": [
                 {
-                  "Source": "textures\\FeminineArgonian\\Chameleon - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Chameleon - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 },
                 {
-                  "Source": "textures\\FeminineArgonian\\Chameleon - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Chameleon - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 },
                 {
-                  "Source": "textures\\FeminineArgonian\\Chameleon - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Chameleon - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 }
               ],
@@ -387,15 +387,15 @@
               "ProbabilityWeighting": 10.0,
               "Paths": [
                 {
-                  "Source": "textures\\FeminineArgonian\\Chameleon - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Chameleon - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 },
                 {
-                  "Source": "textures\\FeminineArgonian\\Chameleon - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Chameleon - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 },
                 {
-                  "Source": "textures\\FeminineArgonian\\Chameleon - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Chameleon - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 }
               ],
@@ -443,15 +443,15 @@
               "ProbabilityWeighting": 10.0,
               "Paths": [
                 {
-                  "Source": "textures\\FeminineArgonian\\Chameleon - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Chameleon - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 },
                 {
-                  "Source": "textures\\FeminineArgonian\\Chameleon - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Chameleon - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 },
                 {
-                  "Source": "textures\\FeminineArgonian\\Chameleon - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Chameleon - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 }
               ],
@@ -520,15 +520,15 @@
               "ProbabilityWeighting": 10.0,
               "Paths": [
                 {
-                  "Source": "textures\\FeminineArgonian\\Lizard - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Lizard - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 },
                 {
-                  "Source": "textures\\FeminineArgonian\\Lizard - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Lizard - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 },
                 {
-                  "Source": "textures\\FeminineArgonian\\Lizard - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Lizard - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 }
               ],
@@ -565,15 +565,15 @@
               "ProbabilityWeighting": 10.0,
               "Paths": [
                 {
-                  "Source": "textures\\FeminineArgonian\\Lizard - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Lizard - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 },
                 {
-                  "Source": "textures\\FeminineArgonian\\Lizard - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Lizard - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 },
                 {
-                  "Source": "textures\\FeminineArgonian\\Lizard - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Lizard - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 }
               ],
@@ -610,15 +610,15 @@
               "ProbabilityWeighting": 10.0,
               "Paths": [
                 {
-                  "Source": "textures\\FeminineArgonian\\Lizard - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Lizard - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 },
                 {
-                  "Source": "textures\\FeminineArgonian\\Lizard - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Lizard - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 },
                 {
-                  "Source": "textures\\FeminineArgonian\\Lizard - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Lizard - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 }
               ],
@@ -655,15 +655,15 @@
               "ProbabilityWeighting": 10.0,
               "Paths": [
                 {
-                  "Source": "textures\\FeminineArgonian\\Lizard - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Lizard - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 },
                 {
-                  "Source": "textures\\FeminineArgonian\\Lizard - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Lizard - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 },
                 {
-                  "Source": "textures\\FeminineArgonian\\Lizard - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Lizard - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 }
               ],
@@ -711,15 +711,15 @@
               "ProbabilityWeighting": 10.0,
               "Paths": [
                 {
-                  "Source": "textures\\FeminineArgonian\\Lizard - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Lizard - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 },
                 {
-                  "Source": "textures\\FeminineArgonian\\Lizard - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Lizard - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 },
                 {
-                  "Source": "textures\\FeminineArgonian\\Lizard - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody.dds",
+                  "Source": "textures\\FeminineArgonian\\Lizard - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody.dds",
                   "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
                 }
               ],
@@ -788,15 +788,15 @@
           "ProbabilityWeighting": 10.0,
           "Paths": [
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_msn.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_msn.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
             },
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_msn.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_msn.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
             },
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_msn.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_msn.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
             }
           ],
@@ -832,15 +832,15 @@
           "ProbabilityWeighting": 10.0,
           "Paths": [
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_msn.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_msn.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
             },
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_msn.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_msn.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
             },
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_msn.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_msn.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
             }
           ],
@@ -876,15 +876,15 @@
           "ProbabilityWeighting": 10.0,
           "Paths": [
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_msn.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_msn.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
             },
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_msn.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_msn.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
             },
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_msn.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_msn.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
             }
           ],
@@ -920,15 +920,15 @@
           "ProbabilityWeighting": 10.0,
           "Paths": [
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_msn.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_msn.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
             },
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_msn.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_msn.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
             },
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_msn.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_msn.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
             }
           ],
@@ -964,15 +964,15 @@
           "ProbabilityWeighting": 10.0,
           "Paths": [
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_msn.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_msn.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
             },
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_msn.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_msn.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
             },
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_msn.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_msn.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
             }
           ],
@@ -1038,15 +1038,15 @@
           "ProbabilityWeighting": 10.0,
           "Paths": [
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_s.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_s.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
             },
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_s.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_s.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
             },
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_s.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Bare Chest\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_s.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
             }
           ],
@@ -1082,15 +1082,15 @@
           "ProbabilityWeighting": 10.0,
           "Paths": [
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_s.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_s.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
             },
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_s.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_s.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
             },
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_s.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Heavy Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_s.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
             }
           ],
@@ -1126,15 +1126,15 @@
           "ProbabilityWeighting": 10.0,
           "Paths": [
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_s.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_s.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
             },
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_s.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_s.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
             },
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_s.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Less Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_s.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
             }
           ],
@@ -1170,15 +1170,15 @@
           "ProbabilityWeighting": 10.0,
           "Paths": [
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_s.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_s.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
             },
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_s.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_s.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
             },
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_s.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Abs\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_s.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
             }
           ],
@@ -1214,15 +1214,15 @@
           "ProbabilityWeighting": 10.0,
           "Paths": [
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_s.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_s.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
             },
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_s.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_s.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
             },
             {
-              "Source": "textures\\FeminineArgonian\\Shared - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\femalebody_s.dds",
+              "Source": "textures\\FeminineArgonian\\Shared - Standard Scales\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalebody_s.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
             }
           ],
@@ -1291,7 +1291,7 @@
           "ProbabilityWeighting": 10.0,
           "Paths": [
             {
-              "Source": "textures\\FeminineArgonian\\Chameleon Shared\\Textures\\Actors\\Character\\ArgonianFemale\\femalehands.dds",
+              "Source": "textures\\FeminineArgonian\\Chameleon Shared\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalehands.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Hands) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
             }
           ],
@@ -1328,7 +1328,7 @@
           "ProbabilityWeighting": 10.0,
           "Paths": [
             {
-              "Source": "textures\\FeminineArgonian\\Lizard Shared\\Textures\\Actors\\Character\\ArgonianFemale\\femalehands.dds",
+              "Source": "textures\\FeminineArgonian\\Lizard Shared\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalehands.dds",
               "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Hands) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
             }
           ],
@@ -1365,7 +1365,7 @@
       "ProbabilityWeighting": 1.0,
       "Paths": [
         {
-          "Source": "textures\\FeminineArgonian\\Shared Parts\\Textures\\Actors\\Character\\ArgonianFemale\\femalehands.dds",
+          "Source": "textures\\FeminineArgonian\\Shared Parts\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalehands.dds",
           "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Hands) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
         }
       ],
@@ -1399,7 +1399,7 @@
       "ProbabilityWeighting": 1.0,
       "Paths": [
         {
-          "Source": "textures\\FeminineArgonian\\Shared Parts\\Textures\\Actors\\Character\\ArgonianFemale\\femalehands.dds",
+          "Source": "textures\\FeminineArgonian\\Shared Parts\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalehands.dds",
           "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Hands) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
         }
       ],
