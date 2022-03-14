@@ -1,0 +1,189 @@
+{
+    "ConfigName": "Feminine Argonian Textures",
+    "ConfigDescription": "Applies Feminine Argonian Textures to NPCs",
+    "DestinationModFolder": "SynthEBD - Feminine Argonian Textures",
+    "ConfigPrefix": "FeminineArgonian",
+    "OptionsDescription": "Which body type are you using?",
+    "Options": [
+        {
+            "Name": "CBBE",
+            "Description": "Distributes texture variants for CBBE body",
+            "DestinationModFolder": "SynthEBD - Feminine Argonian Textures CBBE",
+            "OptionsDescription": "What resolution textures do you want?",
+            "Options": [
+                {
+                    "Name": "1K",
+                    "Description": "Install 1K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Feminine Chameleon and Lizard (CBBE) 1K",
+                            "ExpectedFileName": "Feminine Chameleon and Lizard (CBBE) 1K-184-3-1-1632036513.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/184?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Argonian Textures.json" ]
+                },
+                {
+                    "Name": "2K",
+                    "Description": "Install 2K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Feminine Chameleon and Lizard (CBBE) 2K",
+                            "ExpectedFileName": "Feminine Chameleon and Lizard (CBBE) 2K-184-3-1-1632036667.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/184?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Argonian Textures.json" ]
+                },
+                {
+                    "Name": "4K",
+                    "Description": "Install 4K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Feminine Chameleon and Lizard (CBBE) 4K",
+                            "ExpectedFileName": "Feminine Chameleon and Lizard (CBBE) 4K-184-3-1-1632037956.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/184?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Argonian Textures.json" ]
+                },
+                {
+                    "Name": "8K",
+                    "Description": "Install 8K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Feminine Chameleon and Lizard (CBBE) 8K",
+                            "ExpectedFileName": "Feminine Chameleon and Lizard (CBBE) 8K-184-3-1-1632036416.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/184?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Argonian Textures.json" ]
+                }
+            ]
+        },
+        {
+            "Name": "UNP",
+            "Description": "Distributes texture variants for UNP body",
+            "DestinationModFolder": "SynthEBD - Feminine Argonian Textures UNP",
+            "OptionsDescription": "What resolution textures do you want?",
+            "Options": [
+                {
+                    "Name": "1K",
+                    "Description": "Install 1K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Feminine Chameleon and Lizard (UNP) 1K",
+                            "ExpectedFileName": "Feminine Chameleon and Lizard (UNP) 1K-184-3-1-1632038093.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/184?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Argonian Textures.json" ]
+                },
+                {
+                    "Name": "2K",
+                    "Description": "Install 2K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Feminine Chameleon and Lizard (UNP) 2K",
+                            "ExpectedFileName": "Feminine Chameleon and Lizard (UNP) 2K-184-3-1-1632038259.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/184?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Argonian Textures.json" ]
+                },
+                {
+                    "Name": "4K",
+                    "Description": "Install 4K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Feminine Chameleon and Lizard (UNP) 4K",
+                            "ExpectedFileName": "Feminine Chameleon and Lizard (UNP) 4K-184-3-1-1632040000.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/184?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Argonian Textures.json" ]
+                },
+                {
+                    "Name": "8K",
+                    "Description": "Install 8K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Feminine Chameleon and Lizard (UNP) 8K",
+                            "ExpectedFileName": "Feminine Chameleon and Lizard (UNP) 8K-184-3-1-1632043712.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/184?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Argonian Textures.json" ]
+                }
+            ]
+        },
+        {
+            "Name": "Vanilla",
+            "Description": "Distributes texture variants for Vanilla body",
+            "DestinationModFolder": "SynthEBD - Feminine Argonian Textures Vanilla",
+            "OptionsDescription": "What resolution textures do you want?",
+            "Options": [
+                {
+                    "Name": "1K",
+                    "Description": "Install 1K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Feminine Chameleon and Lizard (Vanilla) 1K",
+                            "ExpectedFileName": "Feminine Chameleon and Lizard (Vanilla) 1K-184-3-1-1632038661.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/184?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Argonian Textures.json" ]
+                },
+                {
+                    "Name": "2K",
+                    "Description": "Install 2K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Feminine Chameleon and Lizard (Vanilla) 2K",
+                            "ExpectedFileName": "Feminine Chameleon and Lizard (Vanilla) 2K-184-3-1-1632038503.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/184?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Argonian Textures.json" ]
+                },
+                {
+                    "Name": "4K",
+                    "Description": "Install 4K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Feminine Chameleon and Lizard (Vanilla) 4K",
+                            "ExpectedFileName": "Feminine Chameleon and Lizard (Vanilla) 4K-184-3-1-1632041456.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/184?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Argonian Textures.json" ]
+                },
+                {
+                    "Name": "8K",
+                    "Description": "Install 8K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Feminine Chameleon and Lizard (Vanilla) 8K",
+                            "ExpectedFileName": "Feminine Chameleon and Lizard (Vanilla) 8K-184-3-1-1632045758.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/184?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Argonian Textures.json" ]
+                }
+            ]
+        }
+    ]
+}
