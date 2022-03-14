@@ -7,10 +7,23 @@
     "Options": [
         {
             "Name": "CBBE",
-            "Description": "Distributes CBBE texture variants",
+            "Description": "Distributes texture variants for CBBE body",
             "DestinationModFolder": "SynthEBD - Feminine Khajiit Textures CBBE",
             "OptionsDescription": "What resolution textures do you want?",
             "Options": [
+                {
+                    "Name": "1K",
+                    "Description": "Install 1K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Feminine Grey Cat and Leopard (CBBE) 1K",
+                            "ExpectedFileName": "Feminine Grey Cat and Leopard (CBBE) 1K-183-3-1-1632978517.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/183?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Khajiit Textures.json" ]
+                },
                 {
                     "Name": "2K",
                     "Description": "Install 2K textures",
@@ -22,10 +35,155 @@
                             "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/183?tab=files"
                         }
                     ],
-                    "AssetPackPaths": [ "Feminine Khajiit Textures - CBBE - 2K.json" ]
+                    "AssetPackPaths": [ "Feminine Khajiit Textures.json" ]
+                },
+                {
+                    "Name": "4K",
+                    "Description": "Install 4K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Feminine Grey Cat and Leopard (CBBE) 4K",
+                            "ExpectedFileName": "Feminine Grey Cat and Leopard (CBBE) 4K-183-3-1-1632983681.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/183?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Khajiit Textures.json" ]
+                },
+                {
+                    "Name": "8K",
+                    "Description": "Install 8K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Feminine Grey Cat and Leopard (CBBE) 8K",
+                            "ExpectedFileName": "Feminine Grey Cat and Leopard (CBBE) 8K-183-3-1-1632991572.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/183?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Khajiit Textures.json" ]
                 }
             ]
-            
+        },
+        {
+            "Name": "UNP",
+            "Description": "Distributes texture variants for UNP body",
+            "DestinationModFolder": "SynthEBD - Feminine Khajiit Textures UNP",
+            "OptionsDescription": "What resolution textures do you want?",
+            "Options": [
+                {
+                    "Name": "1K",
+                    "Description": "Install 1K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Feminine Grey Cat and Leopard (UNP) 1K",
+                            "ExpectedFileName": "Feminine Grey Cat and Leopard (UNP) 1K-183-3-1a-1640053750.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/183?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Khajiit Textures.json" ]
+                },
+                {
+                    "Name": "2K",
+                    "Description": "Install 2K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Feminine Grey Cat and Leopard (UNP) 2K",
+                            "ExpectedFileName": "Feminine Grey Cat and Leopard (UNP) 2K-183-3-1a-1640054066.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/183?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Khajiit Textures.json" ]
+                },
+                {
+                    "Name": "4K",
+                    "Description": "Install 4K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Feminine Grey Cat and Leopard (UNP) 4K",
+                            "ExpectedFileName": "Feminine Grey Cat and Leopard (UNP) 4K-183-3-1a-1640056462.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/183?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Khajiit Textures.json" ]
+                },
+                {
+                    "Name": "8K",
+                    "Description": "Install 8K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Feminine Grey Cat and Leopard (UNP) 8K",
+                            "ExpectedFileName": "Feminine Grey Cat and Leopard (UNP) 8K-183-3-1a-1640088499.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/183?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Khajiit Textures.json" ]
+                }
+            ]
+        },
+        {
+            "Name": "Vanilla",
+            "Description": "Distributes texture variants for Vanilla body",
+            "DestinationModFolder": "SynthEBD - Feminine Khajiit Textures Vanilla",
+            "OptionsDescription": "What resolution textures do you want?",
+            "Options": [
+                {
+                    "Name": "1K",
+                    "Description": "Install 1K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Feminine Grey Cat and Leopard (Vanilla) 1K",
+                            "ExpectedFileName": "Feminine Grey Cat and Leopard (Vanilla) 1K-183-3-1-1632979312.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/183?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Khajiit Textures.json" ]
+                },
+                {
+                    "Name": "2K",
+                    "Description": "Install 2K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Feminine Grey Cat and Leopard (Vanilla) 2K",
+                            "ExpectedFileName": "Feminine Grey Cat and Leopard (Vanilla) 2K-183-3-1-1632979544.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/183?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Khajiit Textures.json" ]
+                },
+                {
+                    "Name": "4K",
+                    "Description": "Install 4K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Feminine Grey Cat and Leopard (Vanilla) 4K",
+                            "ExpectedFileName": "Feminine Grey Cat and Leopard (Vanilla) 4K-183-3-1-1632988230.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/183?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Khajiit Textures.json" ]
+                },
+                {
+                    "Name": "8K",
+                    "Description": "Install 8K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Feminine Grey Cat and Leopard (Vanilla) 8K",
+                            "ExpectedFileName": "Feminine Grey Cat and Leopard (Vanilla) 8K-183-3-1-1633005133.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/183?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Khajiit Textures.json" ]
+                }
+            ]
         }
     ]
 }
