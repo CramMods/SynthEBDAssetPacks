@@ -1,0 +1,1600 @@
+{
+  "GroupName": "Masculine Argonian Textures",
+  "ShortName": "MasculineArgonian",
+  "ConfigType": "Primary",
+  "Gender": "Male",
+  "DisplayAlerts": true,
+  "UserAlert": "",
+  "Subgroups": [
+    {
+      "ID": "HD",
+      "Name": "Head Diffuse",
+      "Enabled": true,
+      "DistributionEnabled": true,
+      "AllowedRaces": [],
+      "AllowedRaceGroupings": [
+        "Argonian"
+      ],
+      "DisallowedRaces": [],
+      "DisallowedRaceGroupings": [],
+      "AllowedAttributes": [],
+      "DisallowedAttributes": [],
+      "AllowUnique": true,
+      "AllowNonUnique": true,
+      "RequiredSubgroups": [],
+      "ExcludedSubgroups": [],
+      "AddKeywords": [],
+      "ProbabilityWeighting": 10.0,
+      "Paths": [],
+      "AllowedBodyGenDescriptors": [],
+      "DisallowedBodyGenDescriptors": [],
+      "AllowedBodySlideDescriptors": [],
+      "DisallowedBodySlideDescriptors": [],
+      "WeightRange": {
+        "Lower": 0,
+        "Upper": 100
+      },
+      "Subgroups": [
+        {
+          "ID": "HD.C",
+          "Name": "Chameleon",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HN.C"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\MasculineArgonian\\00 Chameleon - Core\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalehead.dds",
+              "Destination": "HeadTexture.Diffuse"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        },
+        {
+          "ID": "HD.L",
+          "Name": "Lizard",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HN.L"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\MasculineArgonian\\05 Lizard - Core\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalehead.dds",
+              "Destination": "HeadTexture.Diffuse"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        }
+      ],
+      "TopLevelSubgroupID": ""
+    },
+    {
+      "ID": "HN",
+      "Name": "Head Normals",
+      "Enabled": true,
+      "DistributionEnabled": true,
+      "AllowedRaces": [],
+      "AllowedRaceGroupings": [],
+      "DisallowedRaces": [],
+      "DisallowedRaceGroupings": [],
+      "AllowedAttributes": [],
+      "DisallowedAttributes": [],
+      "AllowUnique": true,
+      "AllowNonUnique": true,
+      "RequiredSubgroups": [],
+      "ExcludedSubgroups": [],
+      "AddKeywords": [],
+      "ProbabilityWeighting": 1.0,
+      "Paths": [
+        {
+          "Source": "textures\\MasculineArgonian\\10 Shared Core\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalehead_msn.dds",
+          "Destination": "HeadTexture.NormalOrGloss"
+        }
+      ],
+      "AllowedBodyGenDescriptors": [],
+      "DisallowedBodyGenDescriptors": [],
+      "AllowedBodySlideDescriptors": [],
+      "DisallowedBodySlideDescriptors": [],
+      "WeightRange": {
+        "Lower": 0,
+        "Upper": 100
+      },
+      "Subgroups": [],
+      "TopLevelSubgroupID": ""
+    },
+    {
+      "ID": "HSP",
+      "Name": "Head Specular",
+      "Enabled": true,
+      "DistributionEnabled": true,
+      "AllowedRaces": [],
+      "AllowedRaceGroupings": [],
+      "DisallowedRaces": [],
+      "DisallowedRaceGroupings": [],
+      "AllowedAttributes": [],
+      "DisallowedAttributes": [],
+      "AllowUnique": true,
+      "AllowNonUnique": true,
+      "RequiredSubgroups": [],
+      "ExcludedSubgroups": [],
+      "AddKeywords": [],
+      "ProbabilityWeighting": 1.0,
+      "Paths": [
+        {
+          "Source": "textures\\MasculineArgonian\\10 Shared Core\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalehead_s.dds",
+          "Destination": "HeadTexture.BacklightMaskOrSpecular"
+        }
+      ],
+      "AllowedBodyGenDescriptors": [],
+      "DisallowedBodyGenDescriptors": [],
+      "AllowedBodySlideDescriptors": [],
+      "DisallowedBodySlideDescriptors": [],
+      "WeightRange": {
+        "Lower": 0,
+        "Upper": 100
+      },
+      "Subgroups": [],
+      "TopLevelSubgroupID": ""
+    },
+    {
+      "ID": "BD",
+      "Name": "Body Diffuse",
+      "Enabled": true,
+      "DistributionEnabled": true,
+      "AllowedRaces": [],
+      "AllowedRaceGroupings": [],
+      "DisallowedRaces": [],
+      "DisallowedRaceGroupings": [],
+      "AllowedAttributes": [],
+      "DisallowedAttributes": [],
+      "AllowUnique": true,
+      "AllowNonUnique": true,
+      "RequiredSubgroups": [],
+      "ExcludedSubgroups": [],
+      "AddKeywords": [],
+      "ProbabilityWeighting": 1.0,
+      "Paths": [],
+      "AllowedBodyGenDescriptors": [],
+      "DisallowedBodyGenDescriptors": [],
+      "AllowedBodySlideDescriptors": [],
+      "DisallowedBodySlideDescriptors": [],
+      "WeightRange": {
+        "Lower": 0,
+        "Upper": 100
+      },
+      "Subgroups": [
+        {
+          "ID": "BD.C",
+          "Name": "Chameleon",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HD.C"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [
+            {
+              "ID": "BD.C.S",
+              "Name": "Standard Scales",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BN.S",
+                "BSP.S"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\MasculineArgonian\\04 Chameleon - Standard Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                },
+                {
+                  "Source": "textures\\MasculineArgonian\\04 Chameleon - Standard Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                },
+                {
+                  "Source": "textures\\MasculineArgonian\\04 Chameleon - Standard Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BD.C.B",
+              "Name": "Bare Chest",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BN.B",
+                "BSP.B"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\MasculineArgonian\\03 Chameleon - Bare Chest\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                },
+                {
+                  "Source": "textures\\MasculineArgonian\\03 Chameleon - Bare Chest\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                },
+                {
+                  "Source": "textures\\MasculineArgonian\\03 Chameleon - Bare Chest\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BD.C.L",
+              "Name": "Less Scales",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BN.L",
+                "BSP.L"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\MasculineArgonian\\02 Chameleon - Less Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                },
+                {
+                  "Source": "textures\\MasculineArgonian\\02 Chameleon - Less Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                },
+                {
+                  "Source": "textures\\MasculineArgonian\\02 Chameleon - Less Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BD.C.H",
+              "Name": "Heavy Scales",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BN.H",
+                "BSP.H"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\MasculineArgonian\\01 Chameleon - Heavy Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                },
+                {
+                  "Source": "textures\\MasculineArgonian\\01 Chameleon - Heavy Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                },
+                {
+                  "Source": "textures\\MasculineArgonian\\01 Chameleon - Heavy Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            }
+          ],
+          "TopLevelSubgroupID": ""
+        },
+        {
+          "ID": "BD.L",
+          "Name": "Lizard",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HD.L"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [
+            {
+              "ID": "BD.L.S",
+              "Name": "Standard Scales",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BN.S",
+                "BSP.S"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\MasculineArgonian\\09 Lizard - Standard Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                },
+                {
+                  "Source": "textures\\MasculineArgonian\\09 Lizard - Standard Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                },
+                {
+                  "Source": "textures\\MasculineArgonian\\09 Lizard - Standard Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BD.L.B",
+              "Name": "Bare Chest",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BN.B",
+                "BSP.B"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\MasculineArgonian\\08 Lizard - Bare Chest\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                },
+                {
+                  "Source": "textures\\MasculineArgonian\\08 Lizard - Bare Chest\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                },
+                {
+                  "Source": "textures\\MasculineArgonian\\08 Lizard - Bare Chest\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BD.L.L",
+              "Name": "Less Scales",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BN.L",
+                "BSP.L"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\MasculineArgonian\\07 Lizard - Less Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                },
+                {
+                  "Source": "textures\\MasculineArgonian\\07 Lizard - Less Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                },
+                {
+                  "Source": "textures\\MasculineArgonian\\07 Lizard - Less Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                }
+              ],
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BD.L.H",
+              "Name": "Heavy Scales",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BN.H",
+                "BSP.H"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\MasculineArgonian\\06 Lizard - Heavy Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                },
+                {
+                  "Source": "textures\\MasculineArgonian\\06 Lizard - Heavy Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                },
+                {
+                  "Source": "textures\\MasculineArgonian\\06 Lizard - Heavy Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            }
+          ],
+          "TopLevelSubgroupID": ""
+        }
+      ],
+      "TopLevelSubgroupID": ""
+    },
+    {
+      "ID": "BN",
+      "Name": "Body Normal",
+      "Enabled": true,
+      "DistributionEnabled": true,
+      "AllowedRaces": [],
+      "AllowedRaceGroupings": [],
+      "DisallowedRaces": [],
+      "DisallowedRaceGroupings": [],
+      "AllowedAttributes": [],
+      "DisallowedAttributes": [],
+      "AllowUnique": true,
+      "AllowNonUnique": true,
+      "RequiredSubgroups": [],
+      "ExcludedSubgroups": [],
+      "AddKeywords": [],
+      "ProbabilityWeighting": 1.0,
+      "Paths": [],
+      "AllowedBodyGenDescriptors": [],
+      "DisallowedBodyGenDescriptors": [],
+      "AllowedBodySlideDescriptors": [],
+      "DisallowedBodySlideDescriptors": [],
+      "WeightRange": {
+        "Lower": 0,
+        "Upper": 100
+      },
+      "Subgroups": [
+        {
+          "ID": "BN.S",
+          "Name": "Standard Scales",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "BSP.S"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\MasculineArgonian\\14 Shared Standard Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_msn.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Male.NormalOrGloss"
+            },
+            {
+              "Source": "textures\\MasculineArgonian\\14 Shared Standard Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_msn.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Male.NormalOrGloss"
+            },
+            {
+              "Source": "textures\\MasculineArgonian\\14 Shared Standard Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_msn.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Male.NormalOrGloss"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        },
+        {
+          "ID": "BN.B",
+          "Name": "Bare Chest",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "BSP.B"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\MasculineArgonian\\13 Shared Bare Chest\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_msn.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Male.NormalOrGloss"
+            },
+            {
+              "Source": "textures\\MasculineArgonian\\13 Shared Bare Chest\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_msn.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Male.NormalOrGloss"
+            },
+            {
+              "Source": "textures\\MasculineArgonian\\13 Shared Bare Chest\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_msn.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Male.NormalOrGloss"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        },
+        {
+          "ID": "BN.L",
+          "Name": "Less Scales",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "BSP.L"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\MasculineArgonian\\12 Shared Less Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_msn.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Male.NormalOrGloss"
+            },
+            {
+              "Source": "textures\\MasculineArgonian\\12 Shared Less Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_msn.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Male.NormalOrGloss"
+            },
+            {
+              "Source": "textures\\MasculineArgonian\\12 Shared Less Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_msn.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Male.NormalOrGloss"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        },
+        {
+          "ID": "BN.H",
+          "Name": "Heavy Scales",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "BSP.H"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\MasculineArgonian\\11 Shared Heavy Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_msn.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Male.NormalOrGloss"
+            },
+            {
+              "Source": "textures\\MasculineArgonian\\11 Shared Heavy Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_msn.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Male.NormalOrGloss"
+            },
+            {
+              "Source": "textures\\MasculineArgonian\\11 Shared Heavy Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_msn.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Male.NormalOrGloss"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        }
+      ],
+      "TopLevelSubgroupID": ""
+    },
+    {
+      "ID": "BSP",
+      "Name": "Body Specular",
+      "Enabled": true,
+      "DistributionEnabled": true,
+      "AllowedRaces": [],
+      "AllowedRaceGroupings": [],
+      "DisallowedRaces": [],
+      "DisallowedRaceGroupings": [],
+      "AllowedAttributes": [],
+      "DisallowedAttributes": [],
+      "AllowUnique": true,
+      "AllowNonUnique": true,
+      "RequiredSubgroups": [],
+      "ExcludedSubgroups": [],
+      "AddKeywords": [],
+      "ProbabilityWeighting": 1.0,
+      "Paths": [],
+      "AllowedBodyGenDescriptors": [],
+      "DisallowedBodyGenDescriptors": [],
+      "AllowedBodySlideDescriptors": [],
+      "DisallowedBodySlideDescriptors": [],
+      "WeightRange": {
+        "Lower": 0,
+        "Upper": 100
+      },
+      "Subgroups": [
+        {
+          "ID": "BSP.S",
+          "Name": "Standard Scales",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "BN.S"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\MasculineArgonian\\14 Shared Standard Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_s.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Male.BacklightMaskOrSpecular"
+            },
+            {
+              "Source": "textures\\MasculineArgonian\\14 Shared Standard Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_s.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Male.BacklightMaskOrSpecular"
+            },
+            {
+              "Source": "textures\\MasculineArgonian\\14 Shared Standard Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_s.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Male.BacklightMaskOrSpecular"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        },
+        {
+          "ID": "BSP.B",
+          "Name": "Bare Chest",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "BN.B"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\MasculineArgonian\\13 Shared Bare Chest\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_s.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Male.BacklightMaskOrSpecular"
+            },
+            {
+              "Source": "textures\\MasculineArgonian\\13 Shared Bare Chest\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_s.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Male.BacklightMaskOrSpecular"
+            },
+            {
+              "Source": "textures\\MasculineArgonian\\13 Shared Bare Chest\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_s.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Male.BacklightMaskOrSpecular"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        },
+        {
+          "ID": "BSP.L",
+          "Name": "Less Scales",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "BN.L"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\MasculineArgonian\\12 Shared Less Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_s.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Male.BacklightMaskOrSpecular"
+            },
+            {
+              "Source": "textures\\MasculineArgonian\\12 Shared Less Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_s.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Male.BacklightMaskOrSpecular"
+            },
+            {
+              "Source": "textures\\MasculineArgonian\\12 Shared Less Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_s.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Male.BacklightMaskOrSpecular"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        },
+        {
+          "ID": "BSP.H",
+          "Name": "Heavy Scales",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "BN.H"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\MasculineArgonian\\11 Shared Heavy Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_s.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Male.BacklightMaskOrSpecular"
+            },
+            {
+              "Source": "textures\\MasculineArgonian\\11 Shared Heavy Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_s.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Male.BacklightMaskOrSpecular"
+            },
+            {
+              "Source": "textures\\MasculineArgonian\\11 Shared Heavy Scales\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalebody_s.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Male.BacklightMaskOrSpecular"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        }
+      ],
+      "TopLevelSubgroupID": ""
+    },
+    {
+      "ID": "HAD",
+      "Name": "Hands Diffuse",
+      "Enabled": true,
+      "DistributionEnabled": true,
+      "AllowedRaces": [],
+      "AllowedRaceGroupings": [
+        "Argonian"
+      ],
+      "DisallowedRaces": [],
+      "DisallowedRaceGroupings": [],
+      "AllowedAttributes": [],
+      "DisallowedAttributes": [],
+      "AllowUnique": true,
+      "AllowNonUnique": true,
+      "RequiredSubgroups": [],
+      "ExcludedSubgroups": [],
+      "AddKeywords": [],
+      "ProbabilityWeighting": 10.0,
+      "Paths": [],
+      "AllowedBodyGenDescriptors": [],
+      "DisallowedBodyGenDescriptors": [],
+      "AllowedBodySlideDescriptors": [],
+      "DisallowedBodySlideDescriptors": [],
+      "WeightRange": {
+        "Lower": 0,
+        "Upper": 100
+      },
+      "Subgroups": [
+        {
+          "ID": "HAD.C",
+          "Name": "Chameleon",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HD.C",
+            "BD.C"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\MasculineArgonian\\00 Chameleon - Core\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalehands.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Hands) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        },
+        {
+          "ID": "HAD.L",
+          "Name": "Lizard",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HD.L",
+            "BD.L"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\MasculineArgonian\\05 Lizard - Core\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalehands.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Hands) && PatchableRaces.Contains(Race)].SkinTexture.Male.Diffuse"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        }
+      ],
+      "TopLevelSubgroupID": ""
+    },
+    {
+      "ID": "HAN",
+      "Name": "Hands Normals",
+      "Enabled": true,
+      "DistributionEnabled": true,
+      "AllowedRaces": [],
+      "AllowedRaceGroupings": [],
+      "DisallowedRaces": [],
+      "DisallowedRaceGroupings": [],
+      "AllowedAttributes": [],
+      "DisallowedAttributes": [],
+      "AllowUnique": true,
+      "AllowNonUnique": true,
+      "RequiredSubgroups": [],
+      "ExcludedSubgroups": [],
+      "AddKeywords": [],
+      "ProbabilityWeighting": 1.0,
+      "Paths": [
+        {
+          "Source": "textures\\MasculineArgonian\\10 Shared Core\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalehands_msn.dds",
+          "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Hands) && PatchableRaces.Contains(Race)].SkinTexture.Male.NormalOrGloss"
+        }
+      ],
+      "AllowedBodyGenDescriptors": [],
+      "DisallowedBodyGenDescriptors": [],
+      "AllowedBodySlideDescriptors": [],
+      "DisallowedBodySlideDescriptors": [],
+      "WeightRange": {
+        "Lower": 0,
+        "Upper": 100
+      },
+      "Subgroups": [],
+      "TopLevelSubgroupID": ""
+    },
+    {
+      "ID": "HASP",
+      "Name": "Hands Specular",
+      "Enabled": true,
+      "DistributionEnabled": true,
+      "AllowedRaces": [],
+      "AllowedRaceGroupings": [],
+      "DisallowedRaces": [],
+      "DisallowedRaceGroupings": [],
+      "AllowedAttributes": [],
+      "DisallowedAttributes": [],
+      "AllowUnique": true,
+      "AllowNonUnique": true,
+      "RequiredSubgroups": [],
+      "ExcludedSubgroups": [],
+      "AddKeywords": [],
+      "ProbabilityWeighting": 1.0,
+      "Paths": [
+        {
+          "Source": "textures\\MasculineArgonian\\10 Shared Core\\Textures\\Actors\\Character\\ArgonianMale\\argonianmalehands_s.dds",
+          "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Hands) && PatchableRaces.Contains(Race)].SkinTexture.Male.BacklightMaskOrSpecular"
+        }
+      ],
+      "AllowedBodyGenDescriptors": [],
+      "DisallowedBodyGenDescriptors": [],
+      "AllowedBodySlideDescriptors": [],
+      "DisallowedBodySlideDescriptors": [],
+      "WeightRange": {
+        "Lower": 0,
+        "Upper": 100
+      },
+      "Subgroups": [],
+      "TopLevelSubgroupID": ""
+    }
+  ],
+  "DefaultRecordTemplate": "000801:Record Templates.esp",
+  "AdditionalRecordTemplateAssignments": [
+    {
+      "Races": [
+        "013745:Skyrim.esm",
+        "088845:Skyrim.esm"
+      ],
+      "TemplateNPC": "000803:Record Templates.esp",
+      "AdditionalRacesPaths": [
+        "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].AdditionalRaces",
+        "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Hands) && PatchableRaces.Contains(Race)].AdditionalRaces",
+        "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].AdditionalRaces",
+        "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].AdditionalRaces"
+      ]
+    },
+    {
+      "Races": [
+        "013740:Skyrim.esm",
+        "08883A:Skyrim.esm"
+      ],
+      "TemplateNPC": "000805:Record Templates.esp",
+      "AdditionalRacesPaths": [
+        "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].AdditionalRaces",
+        "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Hands) && PatchableRaces.Contains(Race)].AdditionalRaces",
+        "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].AdditionalRaces",
+        "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].AdditionalRaces"
+      ]
+    }
+  ],
+  "AssociatedBodyGenConfigName": "MCSmarties Diverse Races Adaptation",
+  "ReplacerGroups": [],
+  "DefaultRecordTemplateAdditionalRacesPaths": [
+    "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].AdditionalRaces",
+    "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Hands) && PatchableRaces.Contains(Race)].AdditionalRaces",
+    "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].AdditionalRaces"
+  ],
+  "AttributeGroups": [
+    {
+      "Label": "Cannot Have Definition",
+      "Attributes": [
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "06479E:Skyrim.esm"
+              ],
+              "RankMin": -1,
+              "RankMax": 100,
+              "Type": "Faction",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        },
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "01325D:Skyrim.esm",
+                "01327B:Skyrim.esm",
+                "013270:Skyrim.esm",
+                "013258:Skyrim.esm",
+                "01325B:Skyrim.esm",
+                "01325A:Skyrim.esm",
+                "013256:Skyrim.esm",
+                "01326B:Skyrim.esm"
+              ],
+              "Type": "Class",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Label": "Must Have Definition",
+      "Attributes": [
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "02584B:Skyrim.esm",
+                "0FF234:Skyrim.esm",
+                "010EC1:Dawnguard.esm",
+                "003375:Dawnguard.esm"
+              ],
+              "RankMin": -1,
+              "RankMax": 100,
+              "Type": "Faction",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Label": "Must be Fit",
+      "Attributes": [
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "01317F:Skyrim.esm",
+                "013182:Skyrim.esm",
+                "01317B:Skyrim.esm",
+                "01317C:Skyrim.esm",
+                "013180:Skyrim.esm",
+                "01317D:Skyrim.esm",
+                "013177:Skyrim.esm",
+                "01317E:Skyrim.esm",
+                "013176:Skyrim.esm",
+                "01CE15:Skyrim.esm",
+                "06766B:Skyrim.esm",
+                "06766C:Skyrim.esm",
+                "06766D:Skyrim.esm",
+                "10B1D8:Skyrim.esm",
+                "07289D:Skyrim.esm",
+                "072891:Skyrim.esm",
+                "072887:Skyrim.esm",
+                "01326D:Skyrim.esm",
+                "01327F:Skyrim.esm",
+                "013280:Skyrim.esm",
+                "0B8340:Skyrim.esm",
+                "0E3A6B:Skyrim.esm",
+                "10FC39:Skyrim.esm",
+                "042DC2:Skyrim.esm",
+                "0E3A5E:Skyrim.esm",
+                "0C6FB6:Skyrim.esm",
+                "0AEDD2:Skyrim.esm",
+                "0E3A6D:Skyrim.esm",
+                "0E3A6C:Skyrim.esm",
+                "013259:Skyrim.esm"
+              ],
+              "Type": "Class",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Label": "Must be Athletic",
+      "Attributes": [
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "01317F:Skyrim.esm",
+                "0FB0DA:Skyrim.esm",
+                "013181:Skyrim.esm",
+                "013180:Skyrim.esm",
+                "07289D:Skyrim.esm",
+                "02A477:Skyrim.esm",
+                "10E714:Skyrim.esm",
+                "01326E:Skyrim.esm",
+                "01326D:Skyrim.esm",
+                "01327F:Skyrim.esm",
+                "013280:Skyrim.esm",
+                "042DC7:Skyrim.esm",
+                "0E3A60:Skyrim.esm",
+                "0E3A61:Skyrim.esm",
+                "0E3A65:Skyrim.esm",
+                "0E3A66:Skyrim.esm",
+                "042DC3:Skyrim.esm",
+                "0E3A62:Skyrim.esm",
+                "0E3A5F:Skyrim.esm",
+                "0E3A63:Skyrim.esm",
+                "042DC5:Skyrim.esm",
+                "10BFEF:Skyrim.esm",
+                "10BFF0:Skyrim.esm"
+              ],
+              "Type": "Class",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Label": "Must be Muscular",
+      "Attributes": [
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "021A74:Skyrim.esm",
+                "07D98D:Skyrim.esm",
+                "02A477:Skyrim.esm",
+                "10E714:Skyrim.esm",
+                "01326E:Skyrim.esm",
+                "0B5FB4:Skyrim.esm",
+                "0E7F45:Skyrim.esm",
+                "0E3A68:Skyrim.esm",
+                "0B5FB5:Skyrim.esm",
+                "042DC1:Skyrim.esm",
+                "042DC4:Skyrim.esm",
+                "013257:Skyrim.esm",
+                "10BFEF:Skyrim.esm",
+                "10BFF0:Skyrim.esm"
+              ],
+              "Type": "Class",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        },
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "01A696:Skyrim.esm",
+                "0B9981:Skyrim.esm",
+                "019959:Skyrim.esm",
+                "01338A:Skyrim.esm",
+                "01414D:Skyrim.esm",
+                "014128:Skyrim.esm",
+                "01336B:Skyrim.esm",
+                "0918E2:Skyrim.esm",
+                "044236:Skyrim.esm",
+                "00336A:Dawnguard.esm",
+                "0285C3:Dragonborn.esm",
+                "017934:Dragonborn.esm",
+                "017F7D:Dragonborn.esm"
+              ],
+              "Type": "NPC",
+              "ForceIf": false,
+              "Weighting": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Label": "Cannot Have Scars",
+      "Attributes": [
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "01325D:Skyrim.esm",
+                "013270:Skyrim.esm",
+                "013258:Skyrim.esm",
+                "01325B:Skyrim.esm",
+                "01325A:Skyrim.esm",
+                "013256:Skyrim.esm",
+                "01326B:Skyrim.esm"
+              ],
+              "Type": "Class",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        },
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "06479E:Skyrim.esm",
+                "102D60:Skyrim.esm",
+                "050922:Skyrim.esm"
+              ],
+              "RankMin": -1,
+              "RankMax": 100,
+              "Type": "Faction",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Label": "Can Be Dirty",
+      "Attributes": [
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "01CE17:Skyrim.esm",
+                "015BE7:Skyrim.esm",
+                "039D30:Skyrim.esm"
+              ],
+              "Type": "Class",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Label": "Must Be Dirty",
+      "Attributes": [
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "01327B:Skyrim.esm",
+                "01326D:Skyrim.esm"
+              ],
+              "Type": "Class",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Label": "Can Get Chubby Morph",
+      "Attributes": [
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "015BE7:Skyrim.esm",
+                "039D30:Skyrim.esm",
+                "013270:Skyrim.esm",
+                "013258:Skyrim.esm",
+                "01325B:Skyrim.esm",
+                "01325A:Skyrim.esm",
+                "013256:Skyrim.esm",
+                "01326B:Skyrim.esm",
+                "0253F2:Skyrim.esm"
+              ],
+              "Type": "Class",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        },
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "013BBF:Skyrim.esm"
+              ],
+              "Type": "NPC",
+              "ForceIf": false,
+              "Weighting": 2
+            }
+          ]
+        },
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "06479E:Skyrim.esm"
+              ],
+              "RankMin": -1,
+              "RankMax": 100,
+              "Type": "Faction",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "DistributionRules": {
+    "AllowedRaces": [],
+    "AllowedRaceGroupings": [
+      "Argonian"
+    ],
+    "DisallowedRaces": [],
+    "DisallowedRaceGroupings": [],
+    "AllowedAttributes": [],
+    "DisallowedAttributes": [],
+    "AllowUnique": true,
+    "AllowNonUnique": true,
+    "AddKeywords": [],
+    "ProbabilityWeighting": 1.0,
+    "AllowedBodyGenDescriptors": [],
+    "DisallowedBodyGenDescriptors": [],
+    "AllowedBodySlideDescriptors": [],
+    "DisallowedBodySlideDescriptors": [],
+    "WeightRange": {
+      "Lower": 0,
+      "Upper": 100
+    }
+  }
+}

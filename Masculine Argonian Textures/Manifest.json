@@ -1,0 +1,249 @@
+{
+    "ConfigName": "Masculine Argonian Textures",
+    "ConfigDescription": "Applies Masculine Argonian Textures to NPCs",
+    "DestinationModFolder": "SynthEBD - Masculine Argonian Textures",
+    "ConfigPrefix": "MasculineArgonian",
+    "OptionsDescription": "Which body type are you using?",
+    "Options": [
+        {
+            "Name": "Better Males",
+            "Description": "Distributes texture variants for Better Males body",
+            "DestinationModFolder": "SynthEBD - Masculine Argonian Textures Better Males",
+            "OptionsDescription": "What resolution textures do you want?",
+            "Options": [
+                {
+                    "Name": "1K",
+                    "Description": "Install 1K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Masculine Chameleon and Lizard (Better Males) 1K",
+                            "ExpectedFileName": "Masculine Chameleon and Lizard (Better Males) 1K-185-2-0-1635637685.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/185?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Argonian Textures.json" ]
+                },
+                {
+                    "Name": "2K",
+                    "Description": "Install 2K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Masculine Chameleon and Lizard (Better Males) 2K",
+                            "ExpectedFileName": "Masculine Chameleon and Lizard (Better Males) 2K-185-2-0-1635637965.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/185?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Argonian Textures.json" ]
+                },
+                {
+                    "Name": "4K",
+                    "Description": "Install 4K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Masculine Chameleon and Lizard (Better Males) 4K",
+                            "ExpectedFileName": "Masculine Chameleon and Lizard (Better Males) 4K-185-2-0-1635639067.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/185?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Argonian Textures.json" ]
+                },
+                {
+                    "Name": "8K",
+                    "Description": "Install 8K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Masculine Chameleon and Lizard (Better Males) 8K",
+                            "ExpectedFileName": "Masculine Chameleon and Lizard (Better Males) 8K-185-2-0-1635641395.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/185?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Argonian Textures.json" ]
+                }
+            ]
+        },
+        {
+            "Name": "SOS-FULL",
+            "Description": "Distributes texture variants for SOS-FULL body",
+            "DestinationModFolder": "SynthEBD - Masculine Argonian Textures SOS-FULL",
+            "OptionsDescription": "What resolution textures do you want?",
+            "Options": [
+                {
+                    "Name": "1K",
+                    "Description": "Install 1K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Masculine Chameleon and Lizard (SOS-FULL) 1K",
+                            "ExpectedFileName": "Masculine Chameleon and Lizard (SOS-FULL) 1K-185-2-0-1635644968.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/185?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Argonian Textures.json" ]
+                },
+                {
+                    "Name": "2K",
+                    "Description": "Install 2K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Masculine Chameleon and Lizard (SOS-FULL) 2K",
+                            "ExpectedFileName": "Masculine Chameleon and Lizard (SOS-FULL) 2K-185-2-0-1635645534.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/185?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Argonian Textures.json" ]
+                },
+                {
+                    "Name": "4K",
+                    "Description": "Install 4K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Masculine Chameleon and Lizard (SOS-FULL) 4K",
+                            "ExpectedFileName": "Masculine Chameleon and Lizard (SOS-FULL) 4K-185-2-0-1635647213.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/185?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Argonian Textures.json" ]
+                },
+                {
+                    "Name": "8K",
+                    "Description": "Install 8K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Masculine Chameleon and Lizard (SOS-FULL) 8K",
+                            "ExpectedFileName": "Masculine Chameleon and Lizard (SOS-FULL) 8K-185-2-0-1635650976.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/185?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Argonian Textures.json" ]
+                }
+            ]
+        },
+        {
+            "Name": "SOS-LITE",
+            "Description": "Distributes texture variants for SOS-LITE body",
+            "DestinationModFolder": "SynthEBD - Masculine Argonian Textures SOS-LITE",
+            "OptionsDescription": "What resolution textures do you want?",
+            "Options": [
+                {
+                    "Name": "1K",
+                    "Description": "Install 1K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Masculine Chameleon and Lizard (SOS-LITE) 1K",
+                            "ExpectedFileName": "Masculine Chameleon and Lizard (SOS-LITE) 1K-185-2-0-1635645333.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/185?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Argonian Textures.json" ]
+                },
+                {
+                    "Name": "2K",
+                    "Description": "Install 2K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Masculine Chameleon and Lizard (SOS-LITE) 2K",
+                            "ExpectedFileName": "Masculine Chameleon and Lizard (SOS-LITE) 2K-185-2-0-1635645740.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/185?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Argonian Textures.json" ]
+                },
+                {
+                    "Name": "4K",
+                    "Description": "Install 4K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Masculine Chameleon and Lizard (SOS-LITE) 4K",
+                            "ExpectedFileName": "Masculine Chameleon and Lizard (SOS-LITE) 4K-185-2-0-1635648306.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/185?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Argonian Textures.json" ]
+                },
+                {
+                    "Name": "8K",
+                    "Description": "Install 8K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Masculine Chameleon and Lizard (SOS-LITE) 8K",
+                            "ExpectedFileName": "Masculine Chameleon and Lizard (SOS-LITE) 8K-185-2-0-1635652612.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/185?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Argonian Textures.json" ]
+                }
+            ]
+        },
+        {
+            "Name": "Vanilla",
+            "Description": "Distributes texture variants for Vanilla body",
+            "DestinationModFolder": "SynthEBD - Masculine Argonian Textures Vanilla",
+            "OptionsDescription": "What resolution textures do you want?",
+            "Options": [
+                {
+                    "Name": "1K",
+                    "Description": "Install 1K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Masculine Chameleon and Lizard (Vanilla) 1K",
+                            "ExpectedFileName": "Masculine Chameleon and Lizard (Vanilla) 1K-185-2-0-1635645233.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/185?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Argonian Textures.json" ]
+                },
+                {
+                    "Name": "2K",
+                    "Description": "Install 2K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Masculine Chameleon and Lizard (Vanilla) 2K",
+                            "ExpectedFileName": "Masculine Chameleon and Lizard (Vanilla) 2K-185-2-0-1635646063.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/185?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Argonian Textures.json" ]
+                },
+                {
+                    "Name": "4K",
+                    "Description": "Install 4K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Masculine Chameleon and Lizard (Vanilla) 4K",
+                            "ExpectedFileName": "Masculine Chameleon and Lizard (Vanilla) 4K-185-2-0-1635649334.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/185?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Argonian Textures.json" ]
+                },
+                {
+                    "Name": "8K",
+                    "Description": "Install 8K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Argonian Textures (Chameleon and Lizard)",
+                            "ModDownloadName": "Masculine Chameleon and Lizard (Vanilla) 8K",
+                            "ExpectedFileName": "Masculine Chameleon and Lizard (Vanilla) 8K-185-2-0-1635658333.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/185?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Argonian Textures.json" ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,249 @@
+{
+    "ConfigName": "Masculine Khajiit Textures",
+    "ConfigDescription": "Applies Masculine Khajiit Textures to NPCs",
+    "DestinationModFolder": "SynthEBD - Masculine Khajiit Textures",
+    "ConfigPrefix": "MasculineKhajiit",
+    "OptionsDescription": "Which body type are you using?",
+    "Options": [
+        {
+            "Name": "Better Males",
+            "Description": "Distributes texture variants for Better Males body",
+            "DestinationModFolder": "SynthEBD - Masculine Khajiit Textures Better Males",
+            "OptionsDescription": "What resolution textures do you want?",
+            "Options": [
+                {
+                    "Name": "1K",
+                    "Description": "Install 1K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Masculine Grey Cat and Leopard (Better Males) 1K",
+                            "ExpectedFileName": "Masculine Grey Cat and Leopard (Better Males) 1K-186-2-0-1637416301.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/186?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Khajiit Textures.json" ]
+                },
+                {
+                    "Name": "2K",
+                    "Description": "Install 2K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Masculine Grey Cat and Leopard (Better Males) 2K",
+                            "ExpectedFileName": "Masculine Grey Cat and Leopard (Better Males) 2K-186-2-0-1637416558.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/186?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Khajiit Textures.json" ]
+                },
+                {
+                    "Name": "4K",
+                    "Description": "Install 4K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Masculine Grey Cat and Leopard (Better Males) 4K",
+                            "ExpectedFileName": "Masculine Grey Cat and Leopard (Better Males) 4K-186-2-0-1637416210.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/186?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Khajiit Textures.json" ]
+                },
+                {
+                    "Name": "8K",
+                    "Description": "Install 8K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Masculine Grey Cat and Leopard (Better Males) 8K",
+                            "ExpectedFileName": "Masculine Grey Cat and Leopard (Better Males) 8K-186-2-0-1637414526.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/186?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Khajiit Textures.json" ]
+                }
+            ]
+        },
+        {
+            "Name": "SOS-FULL",
+            "Description": "Distributes texture variants for SOS-FULL body",
+            "DestinationModFolder": "SynthEBD - Masculine Khajiit Textures SOS-FULL",
+            "OptionsDescription": "What resolution textures do you want?",
+            "Options": [
+                {
+                    "Name": "1K",
+                    "Description": "Install 1K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Masculine Grey Cat and Leopard (SOS-FULL) 1K",
+                            "ExpectedFileName": "Masculine Grey Cat and Leopard (SOS-FULL) 1K-186-2-0-1637428992.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/186?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Khajiit Textures.json" ]
+                },
+                {
+                    "Name": "2K",
+                    "Description": "Install 2K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Masculine Grey Cat and Leopard (SOS-FULL) 2K",
+                            "ExpectedFileName": "Masculine Grey Cat and Leopard (SOS-FULL) 2K-186-2-0-1637429601.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/186?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Khajiit Textures.json" ]
+                },
+                {
+                    "Name": "4K",
+                    "Description": "Install 4K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Masculine Grey Cat and Leopard (SOS-FULL) 4K",
+                            "ExpectedFileName": "Masculine Grey Cat and Leopard (SOS-FULL) 4K-186-2-0-1637428870.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/186?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Khajiit Textures.json" ]
+                },
+                {
+                    "Name": "8K",
+                    "Description": "Install 8K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Masculine Grey Cat and Leopard (SOS-FULL) 8K",
+                            "ExpectedFileName": "Masculine Grey Cat and Leopard (SOS-FULL) 8K-186-2-0-1637426567.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/186?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Khajiit Textures.json" ]
+                }
+            ]
+        },
+        {
+            "Name": "SOS-LITE",
+            "Description": "Distributes texture variants for SOS-LITE body",
+            "DestinationModFolder": "SynthEBD - Masculine Khajiit Textures SOS-LITE",
+            "OptionsDescription": "What resolution textures do you want?",
+            "Options": [
+                {
+                    "Name": "1K",
+                    "Description": "Install 1K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Masculine Grey Cat and Leopard (SOS-LITE) 1K",
+                            "ExpectedFileName": "Masculine Grey Cat and Leopard (SOS-LITE) 1K-186-2-0-1637429702.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/186?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Khajiit Textures.json" ]
+                },
+                {
+                    "Name": "2K",
+                    "Description": "Install 2K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Masculine Grey Cat and Leopard (SOS-LITE) 2K",
+                            "ExpectedFileName": "Masculine Grey Cat and Leopard (SOS-LITE) 2K-186-2-0-1637429966.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/186?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Khajiit Textures.json" ]
+                },
+                {
+                    "Name": "4K",
+                    "Description": "Install 4K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Masculine Grey Cat and Leopard (SOS-LITE) 4K",
+                            "ExpectedFileName": "Masculine Grey Cat and Leopard (SOS-LITE) 4K-186-2-0-1637437749.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/186?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Khajiit Textures.json" ]
+                },
+                {
+                    "Name": "8K",
+                    "Description": "Install 8K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Masculine Grey Cat and Leopard (SOS-LITE) 8K",
+                            "ExpectedFileName": "Masculine Grey Cat and Leopard (SOS-LITE) 8K-186-2-0-1637447221.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/186?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Khajiit Textures.json" ]
+                }
+            ]
+        },
+        {
+            "Name": "Vanilla",
+            "Description": "Distributes texture variants for Vanilla body",
+            "DestinationModFolder": "SynthEBD - Masculine Khajiit Textures Vanilla",
+            "OptionsDescription": "What resolution textures do you want?",
+            "Options": [
+                {
+                    "Name": "1K",
+                    "Description": "Install 1K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Masculine Grey Cat and Leopard (Vanilla) 1K",
+                            "ExpectedFileName": "Masculine Grey Cat and Leopard (Vanilla) 1K-186-2-0-1637430203.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/186?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Khajiit Textures.json" ]
+                },
+                {
+                    "Name": "2K",
+                    "Description": "Install 2K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Masculine Grey Cat and Leopard (Vanilla) 2K",
+                            "ExpectedFileName": "Masculine Grey Cat and Leopard (Vanilla) 2K-186-2-0-1637430468.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/186?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Khajiit Textures.json" ]
+                },
+                {
+                    "Name": "4K",
+                    "Description": "Install 4K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Masculine Grey Cat and Leopard (Vanilla) 4K",
+                            "ExpectedFileName": "Masculine Grey Cat and Leopard (Vanilla) 4K-186-2-0-1637433323.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/186?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Khajiit Textures.json" ]
+                },
+                {
+                    "Name": "8K",
+                    "Description": "Install 8K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Masculine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Masculine Grey Cat and Leopard (Vanilla) 8K",
+                            "ExpectedFileName": "Masculine Grey Cat and Leopard (Vanilla) 8K-186-2-0-1637450883.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/186?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Masculine Khajiit Textures.json" ]
+                }
+            ]
+        }
+    ]
+}
