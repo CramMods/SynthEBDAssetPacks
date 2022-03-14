@@ -1,0 +1,2404 @@
+{
+  "GroupName": "Feminine Khajiit Textures CBBE 2K",
+  "ShortName": "FeminineKhajiit",
+  "ConfigType": "Primary",
+  "Gender": "Female",
+  "DisplayAlerts": true,
+  "UserAlert": "",
+  "Subgroups": [
+    {
+      "ID": "HD",
+      "Name": "Head Diffuse",
+      "Enabled": true,
+      "DistributionEnabled": true,
+      "AllowedRaces": [],
+      "AllowedRaceGroupings": [
+        "Khajiit"
+      ],
+      "DisallowedRaces": [],
+      "DisallowedRaceGroupings": [],
+      "AllowedAttributes": [],
+      "DisallowedAttributes": [],
+      "AllowUnique": true,
+      "AllowNonUnique": true,
+      "RequiredSubgroups": [],
+      "ExcludedSubgroups": [],
+      "AddKeywords": [],
+      "ProbabilityWeighting": 10.0,
+      "Paths": [],
+      "AllowedBodyGenDescriptors": [],
+      "DisallowedBodyGenDescriptors": [],
+      "AllowedBodySlideDescriptors": [],
+      "DisallowedBodySlideDescriptors": [],
+      "WeightRange": {
+        "Lower": 0,
+        "Upper": 100
+      },
+      "Subgroups": [
+        {
+          "ID": "HD.G",
+          "Name": "Grey Cat",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HN.G"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\FeminineKhajiit\\Grey Cat - Shared\\Textures\\Actors\\Character\\KhajiitFemale\\femalehead.dds",
+              "Destination": "HeadTexture.Diffuse"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        },
+        {
+          "ID": "HD.L",
+          "Name": "Leopard",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HN.L"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\FeminineKhajiit\\Leopard - Shared\\Textures\\Actors\\Character\\KhajiitFemale\\femalehead.dds",
+              "Destination": "HeadTexture.Diffuse"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        }
+      ],
+      "TopLevelSubgroupID": ""
+    },
+    {
+      "ID": "HN",
+      "Name": "Head Normals",
+      "Enabled": true,
+      "DistributionEnabled": true,
+      "AllowedRaces": [],
+      "AllowedRaceGroupings": [],
+      "DisallowedRaces": [],
+      "DisallowedRaceGroupings": [],
+      "AllowedAttributes": [],
+      "DisallowedAttributes": [],
+      "AllowUnique": true,
+      "AllowNonUnique": true,
+      "RequiredSubgroups": [],
+      "ExcludedSubgroups": [],
+      "AddKeywords": [],
+      "ProbabilityWeighting": 1.0,
+      "Paths": [],
+      "AllowedBodyGenDescriptors": [],
+      "DisallowedBodyGenDescriptors": [],
+      "AllowedBodySlideDescriptors": [],
+      "DisallowedBodySlideDescriptors": [],
+      "WeightRange": {
+        "Lower": 0,
+        "Upper": 100
+      },
+      "Subgroups": [
+        {
+          "ID": "HN.G",
+          "Name": "Grey Cat",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HD.G"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\FeminineKhajiit\\Grey Cat - Shared\\Textures\\Actors\\Character\\KhajiitFemale\\femalehead_msn.dds",
+              "Destination": "HeadTexture.NormalOrGloss"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        },
+        {
+          "ID": "HN.L",
+          "Name": "Leopard",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HD.L"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\FeminineKhajiit\\Leopard - Shared\\Textures\\Actors\\Character\\KhajiitFemale\\femalehead_msn.dds",
+              "Destination": "HeadTexture.NormalOrGloss"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        }
+      ],
+      "TopLevelSubgroupID": ""
+    },
+    {
+      "ID": "HSP",
+      "Name": "Head Specular",
+      "Enabled": true,
+      "DistributionEnabled": true,
+      "AllowedRaces": [],
+      "AllowedRaceGroupings": [],
+      "DisallowedRaces": [],
+      "DisallowedRaceGroupings": [],
+      "AllowedAttributes": [],
+      "DisallowedAttributes": [],
+      "AllowUnique": true,
+      "AllowNonUnique": true,
+      "RequiredSubgroups": [],
+      "ExcludedSubgroups": [],
+      "AddKeywords": [],
+      "ProbabilityWeighting": 1.0,
+      "Paths": [],
+      "AllowedBodyGenDescriptors": [],
+      "DisallowedBodyGenDescriptors": [],
+      "AllowedBodySlideDescriptors": [],
+      "DisallowedBodySlideDescriptors": [],
+      "WeightRange": {
+        "Lower": 0,
+        "Upper": 100
+      },
+      "Subgroups": [
+        {
+          "ID": "HSP.G",
+          "Name": "Grey Cat",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HD.G",
+            "HN.G"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\FeminineKhajiit\\Grey Cat - Shared\\Textures\\Actors\\Character\\KhajiitFemale\\femalehead_s.dds",
+              "Destination": "HeadTexture.BacklightMaskOrSpecular"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        },
+        {
+          "ID": "HSP.L",
+          "Name": "Leopard",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HD.L",
+            "HN.L"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\FeminineKhajiit\\Leopard - Shared\\Textures\\Actors\\Character\\KhajiitFemale\\femalehead_s.dds",
+              "Destination": "HeadTexture.BacklightMaskOrSpecular"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        }
+      ],
+      "TopLevelSubgroupID": ""
+    },
+    {
+      "ID": "BD",
+      "Name": "Body Diffuse",
+      "Enabled": true,
+      "DistributionEnabled": true,
+      "AllowedRaces": [],
+      "AllowedRaceGroupings": [],
+      "DisallowedRaces": [],
+      "DisallowedRaceGroupings": [],
+      "AllowedAttributes": [],
+      "DisallowedAttributes": [],
+      "AllowUnique": true,
+      "AllowNonUnique": true,
+      "RequiredSubgroups": [],
+      "ExcludedSubgroups": [],
+      "AddKeywords": [],
+      "ProbabilityWeighting": 1.0,
+      "Paths": [],
+      "AllowedBodyGenDescriptors": [],
+      "DisallowedBodyGenDescriptors": [],
+      "AllowedBodySlideDescriptors": [],
+      "DisallowedBodySlideDescriptors": [],
+      "WeightRange": {
+        "Lower": 0,
+        "Upper": 100
+      },
+      "Subgroups": [
+        {
+          "ID": "BD.G",
+          "Name": "Grey Cat",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HD.G"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [
+            {
+              "ID": "BD.G.N",
+              "Name": "Normal Nipples",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BN.G.N",
+                "BSP.G.N"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Normal Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Normal Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Normal Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BD.G.F",
+              "Name": "Furry",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BN.G.F",
+                "BSP.G.F"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Furry\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Furry\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Furry\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BD.G.E",
+              "Name": "Eight Nipples",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BN.G.E",
+                "BSP.G.E"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Eight Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Eight Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Eight Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BD.G.A",
+              "Name": "Abs",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BN.G.A",
+                "BSP.G.A"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Abs\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Abs\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Abs\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [
+                {
+                  "Category": "build",
+                  "Value": "thick",
+                  "Signature": "build: thick"
+                },
+                {
+                  "Category": "build",
+                  "Value": "chubby",
+                  "Signature": "build: chubby"
+                }
+              ],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            }
+          ],
+          "TopLevelSubgroupID": ""
+        },
+        {
+          "ID": "BD.L",
+          "Name": "Leopard",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HD.L"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [
+            {
+              "ID": "BD.L.N",
+              "Name": "Normal Nipples",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BN.L.N",
+                "BSP.L.N"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Normal Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Normal Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Normal Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BD.L.F",
+              "Name": "Furry",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BN.L.F",
+                "BSP.L.F"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Furry\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Furry\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Furry\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BD.L.E",
+              "Name": "Eight Nipples",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BN.L.E",
+                "BSP.L.E"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Eight Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Eight Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Eight Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BD.L.A",
+              "Name": "Abs",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BN.L.A",
+                "BSP.L.A"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Abs\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Abs\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Abs\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [
+                {
+                  "Category": "build",
+                  "Value": "thick",
+                  "Signature": "build: thick"
+                },
+                {
+                  "Category": "build",
+                  "Value": "chubby",
+                  "Signature": "build: chubby"
+                }
+              ],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            }
+          ],
+          "TopLevelSubgroupID": ""
+        }
+      ],
+      "TopLevelSubgroupID": ""
+    },
+    {
+      "ID": "BN",
+      "Name": "Body Normal",
+      "Enabled": true,
+      "DistributionEnabled": true,
+      "AllowedRaces": [],
+      "AllowedRaceGroupings": [],
+      "DisallowedRaces": [],
+      "DisallowedRaceGroupings": [],
+      "AllowedAttributes": [],
+      "DisallowedAttributes": [],
+      "AllowUnique": true,
+      "AllowNonUnique": true,
+      "RequiredSubgroups": [],
+      "ExcludedSubgroups": [],
+      "AddKeywords": [],
+      "ProbabilityWeighting": 1.0,
+      "Paths": [],
+      "AllowedBodyGenDescriptors": [],
+      "DisallowedBodyGenDescriptors": [],
+      "AllowedBodySlideDescriptors": [],
+      "DisallowedBodySlideDescriptors": [],
+      "WeightRange": {
+        "Lower": 0,
+        "Upper": 100
+      },
+      "Subgroups": [
+        {
+          "ID": "BN.G",
+          "Name": "Grey Cat",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HN.G"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [
+            {
+              "ID": "BN.G.N",
+              "Name": "Normal Nipples",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BD.G.N",
+                "BSP.G.N"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Normal Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Normal Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Normal Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BN.G.F",
+              "Name": "Furry",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BD.G.F",
+                "BSP.G.F"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Furry\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Furry\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Furry\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BN.G.E",
+              "Name": "Eight Nipples",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BD.G.E",
+                "BSP.G.E"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Eight Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Eight Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Eight Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BN.G.A",
+              "Name": "Abs",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BD.G.A",
+                "BSP.G.A"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Abs\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Abs\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Abs\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            }
+          ],
+          "TopLevelSubgroupID": ""
+        },
+        {
+          "ID": "BN.L",
+          "Name": "Leopard",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HN.L"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [
+            {
+              "ID": "BN.L.N",
+              "Name": "Normal Nipples",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BD.L.N",
+                "BSP.L.N"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Normal Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Normal Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Normal Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BN.L.F",
+              "Name": "Furry",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BD.L.F",
+                "BSP.L.F"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Furry\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Furry\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Furry\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BN.L.E",
+              "Name": "Eight Nipples",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BD.L.E",
+                "BSP.L.E"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Eight Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Eight Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Eight Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BN.L.A",
+              "Name": "Abs",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BD.L.A",
+                "BSP.L.A"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Abs\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Abs\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Abs\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_msn.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            }
+          ],
+          "TopLevelSubgroupID": ""
+        }
+      ],
+      "TopLevelSubgroupID": ""
+    },
+    {
+      "ID": "BSP",
+      "Name": "Body Specular",
+      "Enabled": true,
+      "DistributionEnabled": true,
+      "AllowedRaces": [],
+      "AllowedRaceGroupings": [],
+      "DisallowedRaces": [],
+      "DisallowedRaceGroupings": [],
+      "AllowedAttributes": [],
+      "DisallowedAttributes": [],
+      "AllowUnique": true,
+      "AllowNonUnique": true,
+      "RequiredSubgroups": [],
+      "ExcludedSubgroups": [],
+      "AddKeywords": [],
+      "ProbabilityWeighting": 1.0,
+      "Paths": [],
+      "AllowedBodyGenDescriptors": [],
+      "DisallowedBodyGenDescriptors": [],
+      "AllowedBodySlideDescriptors": [],
+      "DisallowedBodySlideDescriptors": [],
+      "WeightRange": {
+        "Lower": 0,
+        "Upper": 100
+      },
+      "Subgroups": [
+        {
+          "ID": "BSP.G",
+          "Name": "Grey Cat",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HSP.G"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [
+            {
+              "ID": "BSP.G.N",
+              "Name": "Normal Nipples",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BD.G.N",
+                "BN.G.N"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Normal Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Normal Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Normal Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BSP.G.F",
+              "Name": "Furry",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BD.G.F",
+                "BN.G.F"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Furry\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Furry\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Furry\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BSP.G.E",
+              "Name": "Eight Nipples",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BD.G.E",
+                "BN.G.E"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Eight Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Eight Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Eight Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BSP.G.A",
+              "Name": "Abs",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BD.G.A",
+                "BN.G.A"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Abs\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Abs\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Grey Cat - Abs\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            }
+          ],
+          "TopLevelSubgroupID": ""
+        },
+        {
+          "ID": "BSP.L",
+          "Name": "Leopard",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HSP.L"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [
+            {
+              "ID": "BSP.L.N",
+              "Name": "Normal Nipples",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BD.L.N",
+                "BN.L.N"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Normal Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Normal Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Normal Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BSP.L.F",
+              "Name": "Furry",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BD.L.F",
+                "BN.L.F"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Furry\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Furry\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Furry\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BSP.L.E",
+              "Name": "Eight Nipples",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BD.L.E",
+                "BN.L.E"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Eight Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Eight Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Eight Nipples\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            },
+            {
+              "ID": "BSP.L.A",
+              "Name": "Abs",
+              "Enabled": true,
+              "DistributionEnabled": true,
+              "AllowedRaces": [],
+              "AllowedRaceGroupings": [],
+              "DisallowedRaces": [],
+              "DisallowedRaceGroupings": [],
+              "AllowedAttributes": [],
+              "DisallowedAttributes": [],
+              "AllowUnique": true,
+              "AllowNonUnique": true,
+              "RequiredSubgroups": [
+                "BD.L.A",
+                "BN.L.A"
+              ],
+              "ExcludedSubgroups": [],
+              "AddKeywords": [],
+              "ProbabilityWeighting": 10.0,
+              "Paths": [
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Abs\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Abs\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                },
+                {
+                  "Source": "textures\\FeminineKhajiit\\Leopard - Abs\\Textures\\Actors\\Character\\KhajiitFemale\\femalebody_s.dds",
+                  "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+                }
+              ],
+              "AllowedBodyGenDescriptors": [],
+              "DisallowedBodyGenDescriptors": [],
+              "AllowedBodySlideDescriptors": [],
+              "DisallowedBodySlideDescriptors": [],
+              "WeightRange": {
+                "Lower": 0,
+                "Upper": 100
+              },
+              "Subgroups": [],
+              "TopLevelSubgroupID": ""
+            }
+          ],
+          "TopLevelSubgroupID": ""
+        }
+      ],
+      "TopLevelSubgroupID": ""
+    },
+    {
+      "ID": "HAD",
+      "Name": "Hands Diffuse",
+      "Enabled": true,
+      "DistributionEnabled": true,
+      "AllowedRaces": [],
+      "AllowedRaceGroupings": [
+        "Khajiit"
+      ],
+      "DisallowedRaces": [],
+      "DisallowedRaceGroupings": [],
+      "AllowedAttributes": [],
+      "DisallowedAttributes": [],
+      "AllowUnique": true,
+      "AllowNonUnique": true,
+      "RequiredSubgroups": [],
+      "ExcludedSubgroups": [],
+      "AddKeywords": [],
+      "ProbabilityWeighting": 10.0,
+      "Paths": [],
+      "AllowedBodyGenDescriptors": [],
+      "DisallowedBodyGenDescriptors": [],
+      "AllowedBodySlideDescriptors": [],
+      "DisallowedBodySlideDescriptors": [],
+      "WeightRange": {
+        "Lower": 0,
+        "Upper": 100
+      },
+      "Subgroups": [
+        {
+          "ID": "HAD.G",
+          "Name": "Grey Cat",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HD.G",
+            "BD.G"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\FeminineKhajiit\\Grey Cat - Shared\\Textures\\Actors\\Character\\KhajiitFemale\\femalehands.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Hands) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        },
+        {
+          "ID": "HAD.L",
+          "Name": "Leopard",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HD.L",
+            "BD.L"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\FeminineKhajiit\\Leopard - Shared\\Textures\\Actors\\Character\\KhajiitFemale\\femalehands.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Hands) && PatchableRaces.Contains(Race)].SkinTexture.Female.Diffuse"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        }
+      ],
+      "TopLevelSubgroupID": ""
+    },
+    {
+      "ID": "HAN",
+      "Name": "Hands Normals",
+      "Enabled": true,
+      "DistributionEnabled": true,
+      "AllowedRaces": [],
+      "AllowedRaceGroupings": [],
+      "DisallowedRaces": [],
+      "DisallowedRaceGroupings": [],
+      "AllowedAttributes": [],
+      "DisallowedAttributes": [],
+      "AllowUnique": true,
+      "AllowNonUnique": true,
+      "RequiredSubgroups": [],
+      "ExcludedSubgroups": [],
+      "AddKeywords": [],
+      "ProbabilityWeighting": 1.0,
+      "Paths": [],
+      "AllowedBodyGenDescriptors": [],
+      "DisallowedBodyGenDescriptors": [],
+      "AllowedBodySlideDescriptors": [],
+      "DisallowedBodySlideDescriptors": [],
+      "WeightRange": {
+        "Lower": 0,
+        "Upper": 100
+      },
+      "Subgroups": [
+        {
+          "ID": "HAN.G",
+          "Name": "Grey Cat",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HN.G",
+            "BN.G"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\FeminineKhajiit\\Grey Cat - Shared\\Textures\\Actors\\Character\\KhajiitFemale\\femalehands.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Hands) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        },
+        {
+          "ID": "HAN.L",
+          "Name": "Leopard",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HN.L",
+            "BN.L"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\FeminineKhajiit\\Leopard - Shared\\Textures\\Actors\\Character\\KhajiitFemale\\femalehands.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Hands) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        }
+      ],
+      "TopLevelSubgroupID": ""
+    },
+    {
+      "ID": "HASP",
+      "Name": "Hands Specular",
+      "Enabled": true,
+      "DistributionEnabled": true,
+      "AllowedRaces": [],
+      "AllowedRaceGroupings": [],
+      "DisallowedRaces": [],
+      "DisallowedRaceGroupings": [],
+      "AllowedAttributes": [],
+      "DisallowedAttributes": [],
+      "AllowUnique": true,
+      "AllowNonUnique": true,
+      "RequiredSubgroups": [],
+      "ExcludedSubgroups": [],
+      "AddKeywords": [],
+      "ProbabilityWeighting": 1.0,
+      "Paths": [],
+      "AllowedBodyGenDescriptors": [],
+      "DisallowedBodyGenDescriptors": [],
+      "AllowedBodySlideDescriptors": [],
+      "DisallowedBodySlideDescriptors": [],
+      "WeightRange": {
+        "Lower": 0,
+        "Upper": 100
+      },
+      "Subgroups": [
+        {
+          "ID": "HASP.G",
+          "Name": "Grey Cat",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HSP.G",
+            "BSP.G"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\FeminineKhajiit\\Grey Cat - Shared\\Textures\\Actors\\Character\\KhajiitFemale\\femalehands.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Hands) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        },
+        {
+          "ID": "HASP.L",
+          "Name": "Leopard",
+          "Enabled": true,
+          "DistributionEnabled": true,
+          "AllowedRaces": [],
+          "AllowedRaceGroupings": [],
+          "DisallowedRaces": [],
+          "DisallowedRaceGroupings": [],
+          "AllowedAttributes": [],
+          "DisallowedAttributes": [],
+          "AllowUnique": true,
+          "AllowNonUnique": true,
+          "RequiredSubgroups": [
+            "HSP.L",
+            "BSP.L"
+          ],
+          "ExcludedSubgroups": [],
+          "AddKeywords": [],
+          "ProbabilityWeighting": 10.0,
+          "Paths": [
+            {
+              "Source": "textures\\FeminineKhajiit\\Leopard - Shared\\Textures\\Actors\\Character\\KhajiitFemale\\femalehands.dds",
+              "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Hands) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
+            }
+          ],
+          "AllowedBodyGenDescriptors": [],
+          "DisallowedBodyGenDescriptors": [],
+          "AllowedBodySlideDescriptors": [],
+          "DisallowedBodySlideDescriptors": [],
+          "WeightRange": {
+            "Lower": 0,
+            "Upper": 100
+          },
+          "Subgroups": [],
+          "TopLevelSubgroupID": ""
+        }
+      ],
+      "TopLevelSubgroupID": ""
+    }
+  ],
+  "DefaultRecordTemplate": "000801:Record Templates.esp",
+  "AdditionalRecordTemplateAssignments": [
+    {
+      "Races": [
+        "013745:Skyrim.esm",
+        "088845:Skyrim.esm"
+      ],
+      "TemplateNPC": "000803:Record Templates.esp",
+      "AdditionalRacesPaths": [
+        "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].AdditionalRaces",
+        "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Hands) && PatchableRaces.Contains(Race)].AdditionalRaces",
+        "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].AdditionalRaces",
+        "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].AdditionalRaces"
+      ]
+    },
+    {
+      "Races": [
+        "013740:Skyrim.esm",
+        "08883A:Skyrim.esm"
+      ],
+      "TemplateNPC": "000805:Record Templates.esp",
+      "AdditionalRacesPaths": [
+        "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].AdditionalRaces",
+        "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Hands) && PatchableRaces.Contains(Race)].AdditionalRaces",
+        "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].AdditionalRaces",
+        "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Tail) && PatchableRaces.Contains(Race)].AdditionalRaces"
+      ]
+    }
+  ],
+  "AssociatedBodyGenConfigName": "MCSmarties Diverse Races Adaptation",
+  "ReplacerGroups": [],
+  "DefaultRecordTemplateAdditionalRacesPaths": [
+    "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Body) && PatchableRaces.Contains(Race)].AdditionalRaces",
+    "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Hands) && PatchableRaces.Contains(Race)].AdditionalRaces",
+    "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Feet) && PatchableRaces.Contains(Race)].AdditionalRaces"
+  ],
+  "AttributeGroups": [
+    {
+      "Label": "Cannot Have Definition",
+      "Attributes": [
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "06479E:Skyrim.esm"
+              ],
+              "RankMin": -1,
+              "RankMax": 100,
+              "Type": "Faction",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        },
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "01325D:Skyrim.esm",
+                "01327B:Skyrim.esm",
+                "013270:Skyrim.esm",
+                "013258:Skyrim.esm",
+                "01325B:Skyrim.esm",
+                "01325A:Skyrim.esm",
+                "013256:Skyrim.esm",
+                "01326B:Skyrim.esm"
+              ],
+              "Type": "Class",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Label": "Must Have Definition",
+      "Attributes": [
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "02584B:Skyrim.esm",
+                "0FF234:Skyrim.esm",
+                "010EC1:Dawnguard.esm",
+                "003375:Dawnguard.esm"
+              ],
+              "RankMin": -1,
+              "RankMax": 100,
+              "Type": "Faction",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Label": "Must be Fit",
+      "Attributes": [
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "01317F:Skyrim.esm",
+                "013182:Skyrim.esm",
+                "01317B:Skyrim.esm",
+                "01317C:Skyrim.esm",
+                "013180:Skyrim.esm",
+                "01317D:Skyrim.esm",
+                "013177:Skyrim.esm",
+                "01317E:Skyrim.esm",
+                "013176:Skyrim.esm",
+                "01CE15:Skyrim.esm",
+                "06766B:Skyrim.esm",
+                "06766C:Skyrim.esm",
+                "06766D:Skyrim.esm",
+                "10B1D8:Skyrim.esm",
+                "07289D:Skyrim.esm",
+                "072891:Skyrim.esm",
+                "072887:Skyrim.esm",
+                "01326D:Skyrim.esm",
+                "01327F:Skyrim.esm",
+                "013280:Skyrim.esm",
+                "0B8340:Skyrim.esm",
+                "0E3A6B:Skyrim.esm",
+                "10FC39:Skyrim.esm",
+                "042DC2:Skyrim.esm",
+                "0E3A5E:Skyrim.esm",
+                "0C6FB6:Skyrim.esm",
+                "0AEDD2:Skyrim.esm",
+                "0E3A6D:Skyrim.esm",
+                "0E3A6C:Skyrim.esm",
+                "013259:Skyrim.esm"
+              ],
+              "Type": "Class",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Label": "Must be Athletic",
+      "Attributes": [
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "01317F:Skyrim.esm",
+                "0FB0DA:Skyrim.esm",
+                "013181:Skyrim.esm",
+                "013180:Skyrim.esm",
+                "07289D:Skyrim.esm",
+                "02A477:Skyrim.esm",
+                "10E714:Skyrim.esm",
+                "01326E:Skyrim.esm",
+                "01326D:Skyrim.esm",
+                "01327F:Skyrim.esm",
+                "013280:Skyrim.esm",
+                "042DC7:Skyrim.esm",
+                "0E3A60:Skyrim.esm",
+                "0E3A61:Skyrim.esm",
+                "0E3A65:Skyrim.esm",
+                "0E3A66:Skyrim.esm",
+                "042DC3:Skyrim.esm",
+                "0E3A62:Skyrim.esm",
+                "0E3A5F:Skyrim.esm",
+                "0E3A63:Skyrim.esm",
+                "042DC5:Skyrim.esm",
+                "10BFEF:Skyrim.esm",
+                "10BFF0:Skyrim.esm"
+              ],
+              "Type": "Class",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Label": "Must be Muscular",
+      "Attributes": [
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "021A74:Skyrim.esm",
+                "07D98D:Skyrim.esm",
+                "02A477:Skyrim.esm",
+                "10E714:Skyrim.esm",
+                "01326E:Skyrim.esm",
+                "0B5FB4:Skyrim.esm",
+                "0E7F45:Skyrim.esm",
+                "0E3A68:Skyrim.esm",
+                "0B5FB5:Skyrim.esm",
+                "042DC1:Skyrim.esm",
+                "042DC4:Skyrim.esm",
+                "013257:Skyrim.esm",
+                "10BFEF:Skyrim.esm",
+                "10BFF0:Skyrim.esm"
+              ],
+              "Type": "Class",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        },
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "01A696:Skyrim.esm",
+                "0B9981:Skyrim.esm",
+                "019959:Skyrim.esm",
+                "01338A:Skyrim.esm",
+                "01414D:Skyrim.esm",
+                "014128:Skyrim.esm",
+                "01336B:Skyrim.esm",
+                "0918E2:Skyrim.esm",
+                "044236:Skyrim.esm",
+                "00336A:Dawnguard.esm",
+                "0285C3:Dragonborn.esm",
+                "017934:Dragonborn.esm",
+                "017F7D:Dragonborn.esm"
+              ],
+              "Type": "NPC",
+              "ForceIf": false,
+              "Weighting": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Label": "Cannot Have Scars",
+      "Attributes": [
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "01325D:Skyrim.esm",
+                "013270:Skyrim.esm",
+                "013258:Skyrim.esm",
+                "01325B:Skyrim.esm",
+                "01325A:Skyrim.esm",
+                "013256:Skyrim.esm",
+                "01326B:Skyrim.esm"
+              ],
+              "Type": "Class",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        },
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "06479E:Skyrim.esm",
+                "102D60:Skyrim.esm",
+                "050922:Skyrim.esm"
+              ],
+              "RankMin": -1,
+              "RankMax": 100,
+              "Type": "Faction",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Label": "Can Be Dirty",
+      "Attributes": [
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "01CE17:Skyrim.esm",
+                "015BE7:Skyrim.esm",
+                "039D30:Skyrim.esm"
+              ],
+              "Type": "Class",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Label": "Must Be Dirty",
+      "Attributes": [
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "01327B:Skyrim.esm",
+                "01326D:Skyrim.esm"
+              ],
+              "Type": "Class",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Label": "Can Get Chubby Morph",
+      "Attributes": [
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "015BE7:Skyrim.esm",
+                "039D30:Skyrim.esm",
+                "013270:Skyrim.esm",
+                "013258:Skyrim.esm",
+                "01325B:Skyrim.esm",
+                "01325A:Skyrim.esm",
+                "013256:Skyrim.esm",
+                "01326B:Skyrim.esm",
+                "0253F2:Skyrim.esm"
+              ],
+              "Type": "Class",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        },
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "013BBF:Skyrim.esm"
+              ],
+              "Type": "NPC",
+              "ForceIf": false,
+              "Weighting": 2
+            }
+          ]
+        },
+        {
+          "SubAttributes": [
+            {
+              "FormKeys": [
+                "06479E:Skyrim.esm"
+              ],
+              "RankMin": -1,
+              "RankMax": 100,
+              "Type": "Faction",
+              "ForceIf": false,
+              "Weighting": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "DistributionRules": {
+    "AllowedRaces": [],
+    "AllowedRaceGroupings": [
+      "Khajiit"
+    ],
+    "DisallowedRaces": [],
+    "DisallowedRaceGroupings": [],
+    "AllowedAttributes": [],
+    "DisallowedAttributes": [],
+    "AllowUnique": true,
+    "AllowNonUnique": true,
+    "AddKeywords": [],
+    "ProbabilityWeighting": 1.0,
+    "AllowedBodyGenDescriptors": [],
+    "DisallowedBodyGenDescriptors": [],
+    "AllowedBodySlideDescriptors": [],
+    "DisallowedBodySlideDescriptors": [],
+    "WeightRange": {
+      "Lower": 0,
+      "Upper": 100
+    }
+  }
+}

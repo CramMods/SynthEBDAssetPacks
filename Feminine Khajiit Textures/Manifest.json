@@ -1,0 +1,31 @@
+{
+    "ConfigName": "Feminine Khajiit Textures",
+    "ConfigDescription": "Applies Feminine Khajiit Textures to NPCs",
+    "DestinationModFolder": "SynthEBD - Feminine Khajiit Textures",
+    "ConfigPrefix": "FeminineKhajiit",
+    "OptionsDescription": "Which body type are you using?",
+    "Options": [
+        {
+            "Name": "CBBE",
+            "Description": "Distributes CBBE texture variants",
+            "DestinationModFolder": "SynthEBD - Feminine Khajiit Textures CBBE",
+            "OptionsDescription": "What resolution textures do you want?",
+            "Options": [
+                {
+                    "Name": "2K",
+                    "Description": "Install 2K textures",
+                    "DownloadInfo": [
+                        {
+                            "ModPageName": "Feminine Khajiit Textures (Grey Cat and Leopard)",
+                            "ModDownloadName": "Feminine Grey Cat and Leopard (CBBE) 2K",
+                            "ExpectedFileName": "Feminine Grey Cat and Leopard (CBBE) 2K-183-3-1-1632978740.7z",
+                            "URL": "https://www.nexusmods.com/skyrimspecialedition/mods/183?tab=files"
+                        }
+                    ],
+                    "AssetPackPaths": [ "Feminine Khajiit Textures - CBBE - 2K.json" ]
+                }
+            ]
+            
+        }
+    ]
+}
