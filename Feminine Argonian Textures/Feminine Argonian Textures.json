@@ -1365,7 +1365,7 @@
       "ProbabilityWeighting": 1.0,
       "Paths": [
         {
-          "Source": "textures\\FeminineArgonian\\Shared Parts\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalehands.dds",
+          "Source": "textures\\FeminineArgonian\\Shared Parts\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalehands_msn.dds",
           "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Hands) && PatchableRaces.Contains(Race)].SkinTexture.Female.NormalOrGloss"
         }
       ],
@@ -1399,7 +1399,7 @@
       "ProbabilityWeighting": 1.0,
       "Paths": [
         {
-          "Source": "textures\\FeminineArgonian\\Shared Parts\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalehands.dds",
+          "Source": "textures\\FeminineArgonian\\Shared Parts\\Textures\\Actors\\Character\\ArgonianFemale\\argonianfemalehands_s.dds",
           "Destination": "WornArmor.Armature[BodyTemplate.FirstPersonFlags.Invoke:HasFlag(BipedObjectFlag.Hands) && PatchableRaces.Contains(Race)].SkinTexture.Female.BacklightMaskOrSpecular"
         }
       ],
