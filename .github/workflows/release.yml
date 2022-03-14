@@ -10,13 +10,10 @@ jobs:
     runs-on: self-hosted
     
     steps:
-      - name: Test
-        run: powershell { "test123" | out-file test.txt }
-        
+      - uses: actions/checkout@v2
       - name: Zip each directory
         run: |
           powershell { gci | % { Compress-Archive "$($_.FullName)\*" "$($_.Name).${{ github.event.release.tag_name }}.zip" } }
-          
       - name: Upload to Release
         uses: svenstaro/upload-release-action@v2
         with:
